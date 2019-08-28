@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="utf-8" />
         <title>FindThePrecious.com</title>
@@ -11,41 +11,35 @@
     		<p><strong>FindThePrecious.com</strong></p>
     		<ul>
     			<li><a href="Fellows">Fellows</a></li>
-    			<li><a href="Contact Us">Contact Us</a></li>
+    			<li><a href="ContactUs">Contact Us</a></li>
     		</ul>
     	</header>
 
     	<section>
-    		<img src="https://via.placeholder.com/140"/>
-    		<p>
-    			<h2>Dangerous fellowship try to destroy the ring</h2>
-    		</p>
-    		<p>
-    			Orcs, Goblins, Balrogs, protect your master Sauron !
-    		</p>
+    		<img src="https://via.placeholder.com/140" alt="placeholder1"/>
+    		<h2>Dangerous fellowship try to destroy the ring</h2>
+    		<p>Orcs, Goblins, Balrogs, protect your master Sauron !</p>
     	</section>
     	<section>
-    	 	<p>
-    			<h2>Fellows wanted dead</h2>( or alive if you want to eat them later)
-    		</p>
-    		<img src="https://via.placeholder.com/140"/>
-    		<img src="https://via.placeholder.com/140"/>
-    		<img src="https://via.placeholder.com/140"/>
+    	 	<h2>Fellows wanted dead( or alive if you want to eat them later)</h2>
+    		<img src="https://via.placeholder.com/140" alt="placeholder2"/>
+    		<img src="https://via.placeholder.com/140" alt="placeholder3"/>
+    		<img src="https://via.placeholder.com/140" alt="placeholder4"/>
 
-    		<p><h2>The Wizard</h2><br/>
+    	<h2>The Wizard<br/>
     			Small description...
-    		</p>
-    		<p><h2>Hobbit #3</h2><br/>
+    		</h2>
+    		<h2>Hobbit #3<br/>
     			Small description...
-    		</p>
-    		<p><h2>Yummy Dwarf</h2><br/>
+    		</h2>
+    		<h2>Yummy Dwarf<br/>
     			Small description...
-    		</p>
+    		</h2>
     	</section>
 
     	<hr/>
     	<section>
-    		Contact us
+    		<h2>Contact us</h2>
     		<form method="post" action="traitement.php">
     			<p><input type="text" name="mail" placeholder="@" /></p>
 				<p><input type="text" name="mail" placeholder="Address" /></p>
@@ -60,14 +54,14 @@
     	</section>
 
     <footer>
-    	<a href="About US">About Us</a>
+    	<a href="AboutUS">About Us</a>
     	<a href="Fellows">Fellows</a>	
-    	<a href="Join our Army">Join our Army</a>	
+    	<a href="JoinourArmy">Join our Army</a>	
     	<a href="FAQ">FAQ</a>	
-    	<a href="Reward Conditions">Reward Conditions</a>
-    	<a href="Legal Mentions">Legal Mentions</a>
+    	<a href="RewardConditions">Reward Conditions</a>
+    	<a href="LegalMentions">Legal Mentions</a>
     	<a href="Sauron4Ever.com">Sauron4Ever.com</a>	
-    	<a href="Follow him also on Twitter">Follow him also on Twitter</a>
+    	<a href="FollowhimalsoonTwitter">Follow him also on Twitter</a>
     </footer>
     </body>
 </html>
