@@ -1,67 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <title>FindThePrecious.com</title>
-    </head>
-
-    <body>
-
-    	<header>
-    		<p><strong>FindThePrecious.com</strong></p>
-    		<ul>
-    			<li><a href="Fellows">Fellows</a></li>
-    			<li><a href="ContactUs">Contact Us</a></li>
-    		</ul>
-    	</header>
-
-    	<section>
-    		<img src="https://via.placeholder.com/140" alt="placeholder1"/>
-    		<h2>Dangerous fellowship try to destroy the ring</h2>
-    		<p>Orcs, Goblins, Balrogs, protect your master Sauron !</p>
-    	</section>
-    	<section>
-    	 	<h2>Fellows wanted dead( or alive if you want to eat them later)</h2>
-    		<img src="https://via.placeholder.com/140" alt="placeholder2"/>
-    		<img src="https://via.placeholder.com/140" alt="placeholder3"/>
-    		<img src="https://via.placeholder.com/140" alt="placeholder4"/>
-
-    	<h2>The Wizard<br/>
-    			Small description...
-    		</h2>
-    		<h2>Hobbit #3<br/>
-    			Small description...
-    		</h2>
-    		<h2>Yummy Dwarf<br/>
-    			Small description...
-    		</h2>
-    	</section>
-
-    	<hr/>
-    	<section>
-    		<h2>Contact us</h2>
-    		<form method="post" action="traitement.php">
-    			<p><input type="text" name="mail" placeholder="@" /></p>
-				<p><input type="text" name="mail" placeholder="Address" /></p>
-				<p><select name="choix">
-           			<option >I have seen one of them</option>
-           			<option >I'm afraid</option>
-           			<option >Hello</option>
-      			</select></p>
-				<p><textarea name="message" placeholder="your message"></textarea></p>
-				<p><input type="submit" value="Send" /></p>
-    		</form>
-    	</section>
-
-    <footer>
-    	<a href="AboutUS">About Us</a>
-    	<a href="Fellows">Fellows</a>	
-    	<a href="JoinourArmy">Join our Army</a>	
-    	<a href="FAQ">FAQ</a>	
-    	<a href="RewardConditions">Reward Conditions</a>
-    	<a href="LegalMentions">Legal Mentions</a>
-    	<a href="Sauron4Ever.com">Sauron4Ever.com</a>	
-    	<a href="FollowhimalsoonTwitter">Follow him also on Twitter</a>
-    </footer>
-    </body>
+<head>
+  <meta charset="UTF-8" />
+  <title>FindThePrecious</title>
+</head>
+<body>
+   <header>
+     <h1>FinThePrecious.com</h1>
+     <nav>
+      <ul>
+	      <li><a href="#Fellows">Fellows</a></li>
+	      <li><a href="#Contact-us">Contact us</a></li>
+      </ul>
+     </nav>
+   </header>
+   <section>
+    
+     <img src=https://via.placeholder.com/140 alt="placeholder1"/>
+          <h2>Dangerous fellowship try to destroy the ring</h2><br/>
+          <p>Orc,Goblins,Balrogs,protect your master Sauron !</p>
+   </section>
+  
+  <section>
+    <h2 id="Fellows">Fellows want dead </h2> <h3> (or alive if you want eat them)</h3>
+       <img src=https://via.placeholder.com/150 alt="placeholder2"/>
+         <h3> The Wizard</h3><br/><p>  Small description</p>
+       <img src=https://via.placeholder.com/150 alt="placeholder3"/>
+         <h3> Hobbit#3</h3><br/><p>Small descritpion</p>
+       <img src=https://via.placeholder.com/150 alt="placeholder4"/>
+         <h3> Yummy Darf </h3><br/> <p>Small description</p>
+  </section>
+ <hr/>
+  <section>
+   <h2 id="Contact-us">Contact us</h2> 
+	 <form method="post" action="traitement.php">
+  <p>
+	  <input type="text" name="mail" id="mail" placeholder="@"  />
+		  <br/>
+	 <input type="text" name="adresse" placeholder="Adress" />
+		  <br/>
+	 <select>
+		  <option>I have seen one of them</option>
+      <option>I am the new Lord</option>
+      <option>I am afraid</option>
+	 </select>
+      <br/>
+   <textarea name="message" id="message" rows="10" cols="50"></textarea> 
+   <input type="submit" value="Send" />  
+		</p>
+	</form>
+ <footer>
+		<nav>
+			<ul>
+				<li><a href="test">About us</a></li>
+				<li><a href="test1">Fellows</a></li>
+				<li><a href="test2">Join our army</a></li>
+			</ul>
+			<ul>
+				<li><a href="test3">FAQ</a></li>
+				<li><a href="test4">Reward conditions</a></li>
+				<li><a href="test5">Legal mentions</a></li>
+			</ul>
+			<ul>
+				<li><a href="test6">Sauon4Ever.com</a></li>
+				<li><a href="test7">Follow him also on twitter</a></li>
+			</ul>
+		</nav>
+	</footer>
+ </section> 
+</body>
 </html>
